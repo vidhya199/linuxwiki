@@ -1,0 +1,4 @@
+LINK: https://www.linuxtechi.com/install-apache-subversion-svn-centos-7/
+----------------------------------------------------------------------------
+
+NOTE : use > chown -R apache:apache repo/
