@@ -1,0 +1,18 @@
+LINK: https://www.liquidweb.com/kb/how-to-install-apache-on-centos-7/
+----------------------------------------------------------------------------
+
+1) sudo yum clean all
+
+2) sudo yum -y update
+
+3) sudo yum -y install httpd
+
+4) sudo firewall-cmd --permanent --add-port=80/tcp
+
+6) sudo firewall-cmd --permanent --add-port=443/tcp
+
+7) sudo firewall-cmd --reload
+
+8) sudo systemctl start httpd
+
+9) sudo systemctl enable httpd

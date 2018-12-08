@@ -1,0 +1,10 @@
+LINK: https://www.tecmint.com/set-change-hostname-in-centos-7/
+
+LINK: https://support.rackspace.com/how-to/centos-hostname-change/ - recomanded.
+---------------------------------------------------------------------
+
+1) cat /etc/hostname
+
+2) hostnamectl set-hostname vsl.svnserver.vm
+
+
