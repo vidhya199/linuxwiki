@@ -1,0 +1,6 @@
+https://linoxide.com/linux-how-to/install-bamboo-centos-7/
+
+Need to explicitly expose the port:
+sudo firewall-cmd --permanent --add-port=8085/tcp
+ sudo firewall-cmd --reload
+
