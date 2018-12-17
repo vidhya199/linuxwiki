@@ -1,0 +1,9 @@
+docker cp apache-maven-3.6.0-bin.tar.gz 394b9e2078aa:/var/jenkins_home/
+
+where,
+
+cp == linux command,
+apache-maven-3.6.0-bin.tar.gz=file to be copy in to the container.
+394b9e2078aa=Id of the container.
+/var/jenkins_home/ = path in container where file actually copied.
+
